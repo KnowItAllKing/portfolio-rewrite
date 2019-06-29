@@ -1,0 +1,14 @@
+div.project-body {
+	padding: 0;
+	margin: 0;
+	background-color: #50c7cc;
+	height: 150px;
+}
+div.project-body div.body-title {
+	text-align: center;
+	font-size: 85px;
+	padding-top: 50px;
+}
+h1 {
+	color: #282a2d;
+}
