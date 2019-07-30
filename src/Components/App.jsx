@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import { Navbar } from './Layout/Navbar';
 import { Footer } from './Layout/Footer';
@@ -12,10 +12,12 @@ export const App = () => (
 	<>
 		<Router>
 			<Navbar />
-			<Route exact path='/' component={Landing} />
-			<Route exact path='/about' component={About} />
-			<Route exact path='/projects' component={Projects} />
-
+			<Switch>
+				<Route exact path='/' component={Landing} />
+				<Route exact path='/about' component={About} />
+				<Route exact path='/projects' component={Projects} />
+				<Route component={() => (window.location.href = '/')} />
+			</Switch>
 			<Footer />
 		</Router>
 	</>
