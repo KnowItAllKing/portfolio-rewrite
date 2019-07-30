@@ -13,7 +13,7 @@ export const About = () => (
 			<div className='jumbotron'>
 				<h1 className='display-3'>Who am I?</h1>
 				<p className='lead'>
-					I'm currently a student developer and . I know Javascript & Typescript
+					I'm currently a student developer. I know Javascript & Typescript
 					proficiently, and I also know some basic Java, Perl, and
 					Python.
 				</p>
