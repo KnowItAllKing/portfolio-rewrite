@@ -16,7 +16,7 @@ export const App = () => (
 				<Route exact path='/' component={Landing} />
 				<Route exact path='/about' component={About} />
 				<Route exact path='/projects' component={Projects} />
-				<Route component={() => <Redirect to='/'>} />
+				<Route component={() => <Redirect to='/' />} />
 			</Switch>
 			<Footer />
 		</Router>
