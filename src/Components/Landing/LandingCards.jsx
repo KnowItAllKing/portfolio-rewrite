@@ -13,7 +13,7 @@ export const LandingCards = () => (
 					<Card title='Develop' subtitle='Ideas must be fully developed before they can become potential solutions. Trial and error is applied with past experience to maximize the outcome.' />
 				</div>
 				<div className='col-sm-4'>
-					<Card title='Redefine' subtitle='Solutions redefine old standards and broaden horizons. They don\'t solve anything if they don\'t change anything.' />
+					<Card title='Redefine' subtitle="Solutions redefine old standards and broaden horizons. They don't solve anything if they don't change anything." />
 				</div>
 			</div>
 		</div>
