@@ -13,7 +13,7 @@ export const About = () => (
 			<div className='jumbotron'>
 				<h1 className='display-3'>Who am I?</h1>
 				<p className='lead'>
-					I'm a teenaged developer. I know Javascript & Typescript
+					I'm currently a student developer and . I know Javascript & Typescript
 					proficiently, and I also know some basic Java, Perl, and
 					Python.
 				</p>
@@ -23,6 +23,12 @@ export const About = () => (
 					I create and work on any project that interests me. In the
 					past, I've mainly created Discord bots, but I plan on
 					expanding my area of expertise.
+				</p>
+				<hr className='my-4' />
+				<h3 className='display-3'>What expereince do I have?</h3>
+				<p>
+					I currently am working as front-end developer intern at Imperative Execution, a stock exchange.
+					I've been making various data visualization sites for in-house use.
 				</p>
 				<p className='lead'>
 					<a
