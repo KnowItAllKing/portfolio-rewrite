@@ -25,7 +25,7 @@ export const About = () => (
 					expanding my area of expertise.
 				</p>
 				<hr className='my-4' />
-				<h3 className='display-3'>What expereince do I have?</h3>
+				<h2 className='display-3'>What expereince do I have?</h2>
 				<p>
 					I currently am working as front-end developer intern at Imperative Execution, a stock exchange.
 					I've been making various data visualization sites for in-house use.
