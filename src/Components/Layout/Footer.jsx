@@ -9,7 +9,7 @@ export const Footer = () => (
 			</a>
 		</div>
 		<br />
-		<div className='footer-copyright text-center'>© 2019 Copyright Kai</div>
+		<div className='footer-copyright text-center' style={{ color: 'black' }}>© 2019 Copyright Kai</div>
 		<br />
 	</>
 );
