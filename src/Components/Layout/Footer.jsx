@@ -8,9 +8,9 @@ export const Footer = () => (
         <> </>GitHub
       </a>
       <br />
-      <a href='https://anilist.co/user/KnowItAllKing'>Anilist Profile</a>
+      <a href='https://anilist.co/user/KnowItAllKing'>Anilist.co</a>
       <> </>
-      <a href='https://www.last.fm/user/KnowItAllKing'>Last.fm Profile</a>
+      <a href='https://www.last.fm/user/KnowItAllKing'>Last.fm</a>
     </div>
     <br />
     <div className='footer-copyright text-center' style={{ color: 'black' }}>
